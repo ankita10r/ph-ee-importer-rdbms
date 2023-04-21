@@ -109,6 +109,13 @@ bpmn:
     - id: "inbound_transfer_erply"
       direction: "${bpmn.incoming-direction}"
       type: "${bpmn.transfer-type}"
+    - id: "mock_payment_transfer"
+      direction: "UNKNOWN"
+      type: "${bpmn.transfer-type}"
+    - id: "mock_payment_transfer"
+      direction: "UNKNOWN"
+      type: "${bpmn.transfer-type}"
+
 
 logging:
   level:
